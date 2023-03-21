@@ -1,10 +1,15 @@
 public class Caneta {
     public String modelo, cor;
+    public String setCor;
+    public String setModelo;
+    public int setCarga;
+    public float setPonta;
+    public boolean setTampada;
     private float ponta;
     protected int carga;
     public  boolean tampada;
 
-    public Caneta(String modelo, String cor, float ponta) {
+    public Caneta() {
         this.modelo = modelo;
         this.cor = cor;
         this.ponta = ponta;
